@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: The program prints the alphabets in lowercase letters and then in UPPERcase followed by a new line
+ * Description:  The program prints the alphabet in lowercase,
+ * and then in UPPERCASE, followed by a new line.
  * Return: 0
  */
 int main(void)
@@ -11,6 +12,7 @@ int main(void)
 	while (c <= 'z')
 	{
 		putchar(c);
+		
 		c++;
 	}
 
@@ -19,9 +21,11 @@ int main(void)
 	while (c <= 'Z')
 	{
 		putchar(c);
+		
 		c++;
 	}
 
 	putchar('\n');
+	
 	return (0);
 }
