@@ -1,1 +1,1 @@
-This project will focus on functions and nested loops.
+This project is about functions, and nested loops in c
